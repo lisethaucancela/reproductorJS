@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    </style>
+    <script src="src/reproductor.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<style>
+    i {
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <h3 class="m-3">Reproductor de música</h3>
+    <div class="row">
+        <div class="col-6">
+            <div class="card m-3">
+                <div class="card-header">
+                    <h5>Búsqueda de música</h5>
+                </div>
+                <div class="card-body">
+                    <input id="TextoFiltroCanciones" type="text" placeholder="nombre artista o género"
+                        class="form-content"></input>
+                    <button type="button" class="btn btn-primary">Buscar <i class="bi bi-search"
+                            id="BotonFiltroCanciones"></i></button>
+                    <i class="bi bi-square" id="BotonRestablecerCanciones"></i>
+                    <div class="form-border"></div>
+                </div>
+            </div>
+            <div class="card m-3">
+                <div class="card-header">
+                    <h5>Lista </h5>
+                </div>
+                <div class="card-body">
+                    <ul id="listaCanciones" class="list-group">
+                    </ul>
+                </div>
+            </div>
+            <div class="card m-3">
+                <div class="card-header">
+                    <h5>Favoritos</h5>
+                </div>
+                <div class="card-body">
+                    <ul id="listaFavoritos" class="list-group">
+                </div>
+            </div>
+
+            <div class="card m-3">
+                <div class="card-header">
+                    <h5>Lista Reproduccion</h5>
+                </div>
+                <div class="card-body">
+                    <ul id="ListaReproductor" class="list-group">
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div id="controles">
+                <div class="card m-3">
+                    <div class="card-body">
+                        <img id="listaInformacionImagen" width="200" height="200">
+                        <div class="d-flex justify-content-around m-3">
+                            <i class="bi bi-play-btn" id="ReproductorBotonReproducir"></i>
+                            <i class="bi bi-pause-btn" id="ReproductorBotonPausa"></i>
+                            <i class="bi bi-skip-start-btn" id="ReproductorBotonAnterior"></i>
+                            <i class="bi bi-skip-end-btn" id="ReproductorBotonSiguiente"></i>
+                        </div>
+                        <div id="listaInformacionNombreCancion"></div>
+                        <div id="listaInformacionNombreAutor"></div>
+                        <div id="listaInformacionAnio"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src=" src/main.js">
+</script>

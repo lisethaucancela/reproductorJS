@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    </style>
+    <script src="src/login.js" ></script>
+</head>
+
+<body>
+    <div id="main">
+        <div class="card">
+            <div class="card-title">
+                <h3>Inicio de Sesión</h3>
+            </div>
+            <form method="post" class="form">
+                <label class="">
+                    Usuario
+                </label>
+                <input id="usuario" type="text" placeholder="Usuario" class="form-content"></input>
+                <div class="form-border"></div>
+                <label class="pt-15">
+                    Correo
+                </label>
+                <input id="correo" type="text" placeholder="Correo" class="form-content"></input>
+                <div class="form-border"></div>
+                <label class="pt-15">
+                    Password
+                </label>
+                <input id="password" type="password" placeholder="Password" class="form-content"></input>
+                <div class="form-border"></div>
+
+                <input id="submit-btn" type="button" name="submit" value="LOGIN" onclick="login()" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

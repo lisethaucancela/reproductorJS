@@ -1,0 +1,46 @@
+{
+    "nombre": "Lista de reproducción favorita",
+    "descripcion": "Una lista de reproducción con algunas canciones favoritas",
+    "canciones": [
+      {
+        "titulo": "Primera Cita",
+        "artista": "Carin Leon",
+        "album": "Álbum 1",
+        "anio": 2020,
+        "duracion": "3:06",
+        "genero": "Pop",
+        "origen_src": "https://yt.aboutin.site/aHR0cHM6Ly9tdXMuYWJvdXQ3ei5zaXRlL3RvcDQwL0NhcmluIExlb24gLSBQcmltZXJhIENpdGEubXAz/youtu.be",
+        "favorita": true
+      },
+      {
+        "titulo": "Canción 2",
+        "artista": "Artista 2",
+        "album": "Álbum 2",
+        "anio": 2018,
+        "duracion": "4:20",
+        "genero": "Rock",
+        "origen_src": "/canciones/cancion2.mp3",
+        "favorita": false
+      },
+      {
+        "titulo": "Canción 3",
+        "artista": "Artista 3",
+        "album": "Álbum 3",
+        "anio": 2021,
+        "duracion": "2:55",
+        "genero": "Electrónica",
+        "origen_src": "/canciones/cancion3.mp3",
+        "favorita": true
+      },
+      {
+        "titulo": "Canción 4",
+        "artista": "Artista 4",
+        "album": "Álbum 4",
+        "anio": 2019,
+        "duracion": "5:10",
+        "genero": "Hip Hop",
+        "origen_src": "/canciones/cancion4.mp3",
+        "favorita": false
+      }
+    ]
+  }
